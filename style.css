@@ -91,6 +91,10 @@ body {
     border: none;
 }
 
+.conteudo-principal-escrito-botao-link {
+    color: #2F2325;
+}
+
 .conteudo-principal-escrito-botao:hover {
     background-color: rgba(236, 214, 196, 0.53);
 }
@@ -126,11 +130,54 @@ body {
 .rodape {
     padding: 32px;
     border-top: 0.4px solid #FFF2E7;
-     
+    display: flex;
+    justify-content: center;
 }
 
 .rodape-imagem {
     height: 48px;
     display: block;
     margin: 0 auto;
+}
+
+.rodape-texto {
+    font-family: 'Sarala', sans-serif;
+    color: #ECD6C4;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+/* Estilização Página História */
+
+.conteudo-historia {
+    margin-bottom: 48px;
+    border-top: 0.4px solid #FFF2E7;
+}
+
+.conteudo-historia-principal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    row-gap: 30px;
+    align-items: center;
+}
+
+.conteudo-historia-principal-escrito {
+    width: 35rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.conteudo-historia-principal-escrito-titulo {
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    color: #FFF2E7;
+    font-size: 64px;
+}
+
+.conteudo-historia-principal-escrito-texto {
+    font-family: 'Sarala', sans-serif;
+    color: #ECD6C4;
+    font-size: 18px;
+    font-weight: 300;
 }
